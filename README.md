@@ -65,7 +65,7 @@ Access Key ID/Secret
 - customtkinter：现代化的 Tkinter 扩展，用于构建 UI
 - blivedm：Bilibili 直播弹幕协议的 Python 实现
 - dashscope：阿里云通义千问 SDK
-- openai (>=1.0)：OpenAI 官方 Python SDK，用于调用 GPT 系列大模型 
+- openai (>=1.0)：OpenAI 官方 Python SDK，用于调用 GPT deepseek 系列大模型 
 ---
 完整的依赖列表请参考 requirements.txt。
 ### blivedm 未发布到 PyPI，必须从 GitHub 安装
