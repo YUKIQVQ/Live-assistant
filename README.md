@@ -37,10 +37,11 @@ pip install -r requirements.txt
 ```bash
 python settings_ui.py
 ```
-在弹出的 GUI 窗口中，填入你的：
-DashScope API Key (用于调用通义千问)
-阿里云 Access Key ID/Secret (如果涉及对象存储等功能)
-直播间 ID
+在弹出的 GUI 窗口中，填入你的：  
+API Key (用于调用llm)  
+Access Key ID/Secret   
+项目id  
+主播身份码  
 点击“保存配置”，程序会自动生成 config.json。
 ### 5. 启动主程序
 点击“运行程序”
@@ -69,7 +70,7 @@ DashScope API Key (用于调用通义千问)
 完整的依赖列表请参考 requirements.txt。
 ### blivedm 未发布到 PyPI，必须从 GitHub 安装
 - 请确保系统已安装 Git：https://git-scm.com/
-- 安装方式如下（已写入 requirements.txt）：
+- blivedm安装方式如下（已写入 requirements.txt）：
 ``` txt
 git+https://github.com/xfgryujk/blivedm.git@master
 ```
