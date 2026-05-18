@@ -1,0 +1,4 @@
+customtkinter==5.2.2
+git+https://github.com/xfgryujk/blivedm.git@master
+dashscope==1.25.17
+openai
