@@ -69,10 +69,7 @@ Access Key ID/Secret
 ---
 完整的依赖列表请参考 requirements.txt。
 ### blivedm 未发布到 PyPI，必须从 GitHub 安装
-- blivedm建议手动引入库方式如下：
-``` txt
-git clone https://github.com/xfgryujk/blivedm.git
-```
+
 
 ### 📝 隐私与合规声明
 - Bilibili 协议：本项目仅用于学习交流，模拟官方客户端行为，请勿用于大规模商业用途或恶意攻击。
