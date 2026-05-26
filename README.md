@@ -69,10 +69,9 @@ Access Key ID/Secret
 ---
 完整的依赖列表请参考 requirements.txt。
 ### blivedm 未发布到 PyPI，必须从 GitHub 安装
-- 请确保系统已安装 Git：https://git-scm.com/
-- blivedm安装方式如下（已写入 requirements.txt）：
+- blivedm建议手动引入库方式如下：
 ``` txt
-git+https://github.com/xfgryujk/blivedm.git@master
+git clone https://github.com/xfgryujk/blivedm.git
 ```
 
 ### 📝 隐私与合规声明
